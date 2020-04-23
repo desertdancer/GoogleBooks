@@ -1,0 +1,29 @@
+{
+  "name": "googlebooks",
+  "version": "1.0.0",
+  "description": "This is the README",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desertdancer/GoogleBooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desertdancer/GoogleBooks/issues"
+  },
+  "homepage": "https://github.com/desertdancer/GoogleBooks#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "if-env": "^1.0.4"
+  }
+}
